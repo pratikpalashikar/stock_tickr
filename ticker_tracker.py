@@ -10,7 +10,7 @@ import serial  # To send to Arduino
 import time  # For Timers
 
 # (Notes for future distribution): Enter your personal Finnhub API key here. You can get a free API key at https://finnhub.io/ by creating account.
-fhub = finnhub.Client("ca8rg1iad3icsujbcjb0")
+fhub = finnhub.Client("yourAPIKey")
 # (Notes for future distribution): Enter the serial port assigned to your Arduino here.
 ser = serial.Serial('/dev/cu.usbmodem146101',9600)
 
