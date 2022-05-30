@@ -1,10 +1,4 @@
-''' -------------------
-   | ticker_tracker.py |
-   |   Adam  Denning   |
-    -------------------
-    This program is designed to get a given stock's current price, and output indicators to an arduino.
-    https://www.youtube.com/c/ProjectCentral/
-'''
+
 import finnhub  # Stock Price API
 import serial  # To send to Arduino
 import time  # For Timers
